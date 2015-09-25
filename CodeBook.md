@@ -4,7 +4,7 @@ output:
   html_document:
     keep_md: true
 ---
-This codebook was generated on 2015-09-26 02:02:13
+This codebook was generated on 2015-09-26 02:05:58
 
 Variable list and descriptions
 ------------------------------
@@ -20,6 +20,15 @@ FeatureVariable      | Feature variable signals (Jerk, Mag, JerkMag)
 Axis                 | Direction of signal (X,Y, or Z)
 Mean                 | Average mean of each variable for each activity and each subject
 StandardDeviation    | Average standard deviation of each variable for each activity and each subject
+
+Sample Data
+-----------
+
+``{r}
+dtTidy
+
+```
+
 
 Summary of Variables
 --------------------
