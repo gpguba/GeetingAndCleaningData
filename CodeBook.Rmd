@@ -20,7 +20,7 @@ StandardDeviation    | Average standard deviation of each variable for each acti
 Sample Data
 -----------
 
-```{r}
+```{r, echo=FALSE}
 dtTidy
 
 ```

@@ -1,6 +1,6 @@
 CodeBook
 ========
-This codebook was generated on 2015-09-26 02:13:25
+This codebook was generated on 2015-09-26 02:14:55
 
 Variable list and descriptions
 ------------------------------
@@ -20,10 +20,6 @@ StandardDeviation    | Average standard deviation of each variable for each acti
 Sample Data
 -----------
 
-
-```r
-dtTidy
-```
 
 ```
 ##       Subject     ActivityName    Domain Component    Instrument
