@@ -1,0 +1,20 @@
+# CodeBook
+This codebook was generated on 2015-09-26 01:06:49
+
+Variable list and descriptions
+------------------------------
+
+Variable name        | Description
+---------------------|------------
+Subject              | ID of the subject who performed the activity (1 to 30). 
+ActivityName         | Activity name
+Domain               | Time or frequency domain signal (Time or Frequency)
+Component            | Body or gravity component of signal (Body or Gravity)
+Instrument           | Measuring instrument used (Accelerometer or Gyroscope)
+FeatureVariable      | Feature variable signals (Jerk, Mag, JerkMag)
+Axis                 | Direction of signal (X,Y, or Z)
+Mean                 | Average mean of each variable for each activity and each subject
+StandardDeviation    | Average standard deviation of each variable for each activity and each subject
+
+
+
