@@ -135,7 +135,7 @@ list.files(dataPath, recursive = TRUE)</code></pre>
 </div>
 <div id="read-the-files" class="section level2">
 <h2>Read the files</h2>
-<p>Read files inside <code>train</code>, <code>test</code> folder</p>
+<p>Read files inside <code>train</code> and <code>test</code> folders.</p>
 <pre class="r"><code>dtSubjectTrain &lt;- fread(file.path(dataPath,&quot;train&quot;, &quot;subject_train.txt&quot;))
 dtTrain &lt;- fread(file.path(dataPath,&quot;train&quot;,&quot;x_train.txt&quot;))
 dtTrainLabel &lt;-fread(file.path(dataPath,&quot;train&quot;,&quot;y_train.txt&quot;))
@@ -144,8 +144,8 @@ dtSubjectTest &lt;- fread(file.path(dataPath,&quot;test&quot;,&quot;subject_test
 dtTestLabel &lt;-  fread(file.path(dataPath,&quot;test&quot;,&quot;y_test.txt&quot;))
 dtTest &lt;- fread(file.path(dataPath,&quot;test&quot;,&quot;x_test.txt&quot;))</code></pre>
 </div>
-<div id="merge-the-training-and-the-test-sets" class="section level2">
-<h2>Merge the training and the test sets</h2>
+<div id="merge-the-training-and-the-test-data-sets" class="section level2">
+<h2>Merge the training and the test data sets</h2>
 <p>Combine the test and training label(activity) data set.</p>
 <pre class="r"><code>dtLabel &lt;- rbind(dtTestLabel,dtTrainLabel)
 setnames(dtLabel,&quot;V1&quot;, &quot;Label&quot;)</code></pre>

@@ -90,7 +90,7 @@ For the purpose of this project, the files in the `Inertial Signals` folder are 
 Read the files
 --------------
 
-Read files inside `train`, `test` folder
+Read files inside `train` and `test` folders.
 
 
 ```r
@@ -103,8 +103,8 @@ dtTestLabel <-  fread(file.path(dataPath,"test","y_test.txt"))
 dtTest <- fread(file.path(dataPath,"test","x_test.txt"))
 ```
 
-Merge the training and the test sets
-------------------------------------
+Merge the training and the test data sets
+-----------------------------------------
 
 Combine the test and training label(activity) data set.
 
