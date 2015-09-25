@@ -4,7 +4,7 @@ output:
   html_document:
     keep_md: true
 ---
-This codebook was generated on 2015-09-26 02:05:58
+This codebook was generated on 2015-09-26 02:09:06
 
 Variable list and descriptions
 ------------------------------
@@ -24,9 +24,36 @@ StandardDeviation    | Average standard deviation of each variable for each acti
 Sample Data
 -----------
 
-``{r}
-dtTidy
 
+```r
+dtTidy
+```
+
+```
+##       Subject     ActivityName    Domain Component    Instrument
+##    1:       1           LAYING Frequency      Body Accelerometer
+##    2:       1           LAYING Frequency      Body Accelerometer
+##    3:       1           LAYING Frequency      Body Accelerometer
+##    4:       1           LAYING Frequency      Body Accelerometer
+##    5:       1           LAYING Frequency      Body Accelerometer
+##   ---                                                           
+## 5936:      30 WALKING_UPSTAIRS      Time      Body     Gyroscope
+## 5937:      30 WALKING_UPSTAIRS      Time   Gravity Accelerometer
+## 5938:      30 WALKING_UPSTAIRS      Time   Gravity Accelerometer
+## 5939:      30 WALKING_UPSTAIRS      Time   Gravity Accelerometer
+## 5940:      30 WALKING_UPSTAIRS      Time   Gravity Accelerometer
+##       FeatureVariable Axis        Mean StandardDeviation
+##    1:            Jerk    X -0.95707388        -0.9641607
+##    2:            Jerk    Y -0.92246261        -0.9322179
+##    3:            Jerk    Z -0.94806090        -0.9605870
+##    4:         JerkMag   NA -0.93330036        -0.9218040
+##    5:             Mag   NA -0.86176765        -0.7983009
+##   ---                                                   
+## 5936:              NA    Z  0.08146993        -0.2115736
+## 5937:             Mag   NA -0.13762786        -0.3274108
+## 5938:              NA    X  0.93182983        -0.9540336
+## 5939:              NA    Y -0.22664729        -0.9149339
+## 5940:              NA    Z -0.02214011        -0.8624028
 ```
 
 
