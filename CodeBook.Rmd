@@ -21,5 +21,17 @@ Axis                 | Direction of signal (X,Y, or Z)
 Mean                 | Average mean of each variable for each activity and each subject
 StandardDeviation    | Average standard deviation of each variable for each activity and each subject
 
+Summary of Variables
+--------------------
 
+```{r,echo=FALSE}
+dtTidy$Subject <- factor(dtTidy$Subject)
+dtTidy$ActivityName <- factor(dtTidy$ActivityName)
+dtTidy$Domain <- factor(dtTidy$Domain)
+dtTidy$Component <- factor(dtTidy$Component)
+dtTidy$Instrument <- factor(dtTidy$Instrument)
+dtTidy$FeatureVariable <- factor(dtTidy$FeatureVariable)
+dtTidy$Axis <- factor(dtTidy$Axis)
 
+summary(dtTidy)
+```

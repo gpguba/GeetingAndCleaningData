@@ -6,6 +6,7 @@ setwd("./data science/getting and cleaning data/project")
 path <- getwd()
 require(data.table, quietly = TRUE)
 require(tidyr, quietly = TRUE)
+require(knitr, quietly = TRUE)
 #require(dplyr, quietly = TRUE)
 
 
@@ -96,5 +97,9 @@ dtTidy<- spread(dtTidy,EstimatedVariable,Average)
 #save to text file
 f <- file.path(path, "TidyDataSet.txt")
 write.table(dtTidy, f, quote=FALSE, sep="\t", row.names=FALSE)
+
+
+
+knit("Codebook.Rmd", output = "codebook.md", quiet = TRUE)
 
 
