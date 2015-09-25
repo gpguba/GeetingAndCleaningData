@@ -1,10 +1,6 @@
----
-title: "CodeBook"
-output: 
-  html_document:
-    keep_md: true
----
-This codebook was generated on 2015-09-26 02:09:06
+CodeBook
+========
+This codebook was generated on 2015-09-26 02:13:25
 
 Variable list and descriptions
 ------------------------------
